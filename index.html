@@ -41,6 +41,15 @@
         display: block;
         height: 0.5rem;
         margin-top: 1rem;
+        animation:'slide' 20s infinite linear forwards;
+      }
+      @keyframes slide {
+        0%{
+          background-position-x:0%;
+        }
+        100% {
+          background-position-x:100%;
+        }
       }
       img {
         max-width: 100%;
