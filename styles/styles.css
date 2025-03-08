@@ -45,10 +45,44 @@ h1::after {
         background-position-x:100%;
     }
 }
-img {
+/* img {
     max-width: 100%;
     height: auto;
 }
 p {
     margin: 1rem 0 0 0;
+} */
+.sidenav {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1;
+    top: 12px;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 0px;
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 10px 30px; /*top right*/
+    text-decoration: none;
+    font-size: 20px;
+    color: #f8f8f8;
+    display: block;
+    transition: 0.3s;
+}
+.no-bullets {
+    list-style-type: none;
+}
+.togglebtn {
+    text-align: left;
+    height: 3%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    color: #f8f8f8;
 }
